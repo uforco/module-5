@@ -1,15 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   outline: 0;
   padding: 0;
   margin: 0;
 }
 
-.containe-wap {
-  width: 100%;
-  height: 65vh;
-}
 .containe-wap .containe-br1 {
-  width: 100%;
-  height: 300px;
   background-color: #2ecc71;
+}
+.containe-wap .containe-br1 .wep1 {
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 575px;
+}
+.containe-wap .containe-br1 .wep1 .latter {
+  height: 100%;
+}
+.containe-wap .containe-br2 {
+  height: 300px;
+  background-color: #3498db;
+}
+.containe-wap .containe-br3 {
+  height: 300px;
+  background-color: #d35400;
 }/*# sourceMappingURL=main.css.map */
